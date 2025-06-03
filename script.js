@@ -41,44 +41,37 @@ function main() {
     else {
       if (user_choice == 1 && comp_choice == 2) {
         msg.textContent = 
-          `Computer won.You chose ${
-            values[user_choice - 1]
-          } and the computer chose ${values[comp_choice - 1]}`
-        ;
+          `Computer won.`
+        console.log(`You chose ${values[user_choice - 1] } and the computer chose ${values[comp_choice - 1]}`)  
         comp_score += 1;
       } else if (user_choice == 1 && comp_choice == 3) {
         msg.textContent = 
-          `User won.You chose ${
-            values[user_choice - 1]
-          } and the computer chose ${values[comp_choice - 1]}`
+          `User won.`
+          console.log(`You chose ${values[user_choice - 1] } and the computer chose ${values[comp_choice - 1]}`)  
         ;
         user_score += 1;
       } else if (user_choice == 2 && comp_choice == 1) {
         msg.textContent = 
-          `User won.You chose ${
-            values[user_choice - 1]
-          } and the computer chose ${values[comp_choice - 1]}`
+          `User won.`
+          console.log(`You chose ${values[user_choice - 1] } and the computer chose ${values[comp_choice - 1]}`)  
         ;
         user_score += 1;
       } else if (user_choice == 2 && comp_choice == 3) {
         msg.textContent = 
-          `Computer won.You chose ${
-            values[user_choice - 1]
-          } and the computer chose ${values[comp_choice - 1]}`
+          `Computer won.`
+          console.log(`You chose ${values[user_choice - 1] } and the computer chose ${values[comp_choice - 1]}`)  
         ;
         comp_score += 1;
       } else if (user_choice == 3 && comp_choice == 1) {
         msg.textContent = 
-          `Computer won.You chose ${
-            values[user_choice - 1]
-          } and the computer chose ${values[comp_choice - 1]}`
+          `Computer won.`
+          console.log(`You chose ${values[user_choice - 1] } and the computer chose ${values[comp_choice - 1]}`)  
         ;
         comp_score += 1;
       } else if (user_choice == 3 && comp_choice == 2) {
         msg.textContent = 
-          `User won.You chose ${
-            values[user_choice - 1]
-          } and the computer chose ${values[comp_choice - 1]}`
+          `User won.`
+          console.log(`You chose ${values[user_choice - 1] } and the computer chose ${values[comp_choice - 1]}`)  
         ;
         user_score += 1;
       }
